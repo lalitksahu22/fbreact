@@ -1,0 +1,40 @@
+.chat .row{
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-wrap: nowrap
+}
+.hoverelem:hover{
+    cursor: pointer;
+}
+.msg{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5px;
+    margin-bottom: 5px
+    
+}
+.msgleft{
+    justify-content: flex-start
+}
+.msgright{
+    justify-content: flex-end
+}
+.msgleft div{
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 5px 1rem;
+    max-width: 70%;
+    word-break: break-all
+}
+.msgright div{
+    background: #000000;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 5px 1rem ;
+    max-width: 70%;
+    word-break: break-all
+}
+.ulist{
+    border:1px solid;
+    padding: 0px;
+}
